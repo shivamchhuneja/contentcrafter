@@ -29,7 +29,7 @@ st.set_page_config(layout="wide")
 st.title('ContentCrafter: Your AI Writing Companion')
 
 # Subheader
-st.subheader("Now you can create perfect pieces of content with the help of AI")
+st.write("Now you can create perfect pieces of content with the help of AI. Just add the information about the blog piece in the right sidebar and ContentCrafter will generate a blog post as well as a LinkedIn post to share the blog after publishing.")
 
 # Left sidebar for user input
 with st.sidebar:
@@ -52,7 +52,7 @@ with st.sidebar:
     submit_button = st.button("Generate Content")
 
 if submit_button:
-    prompt = f"Generate a comprehensive, well structured, detailed and non AI generated looking blog post based on the given Title: \"{blog_title}\", Keywords: \"{keywords}\". The blog should be approximately {num_words} words in length, suitable for online reading & SEO friendly. Ensure that the content maintains a consistent tone, is original, interesting, uses pop culture references time to time, and aims at providing value while holding reader interest throughout the piece."
+    prompt = f"Generate 2 items for me. 1 A comprehensive, well structured, detailed and non AI generated looking blog post based on the given Title: \"{blog_title}\", Keywords: \"{keywords}\". The blog should be approximately {num_words} words in length, suitable for online reading & SEO friendly. Ensure that the content maintains a consistent tone, is original, interesting, uses pop culture references time to time, and aims at providing value while holding reader interest throughout the piece. And 2. A LinkedIn post to share this blog when published on LinkedIn."
 
     # Start chat session and generate content
     chat_session = model.start_chat(
