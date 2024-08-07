@@ -1,0 +1,48 @@
+# Compiled source files
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Python-specific
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+env/
+
+# Distribution packages
+dist/
+build/
+*.egg-info/
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# Node.js specific
+node_modules/
+
+# Your custom files/directories
+my_custom_directory/
+my_custom_file.txt
