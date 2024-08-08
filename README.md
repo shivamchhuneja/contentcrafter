@@ -48,7 +48,7 @@ To get started with ContentCrafter, follow these steps:
     - **Keywords**: Provide keywords, separated by commas.
     - **Number of Words**: Select the desired length of the blog post using the slider.
   
-   ![Screen](images/screen_1.png)
+   ![Screen](Images/screen_1.png)
 
 3. **Generate Content**:
     Click the "Generate Content" button to create a blog post, headline ideas, and LinkedIn posts.
