@@ -1,6 +1,6 @@
 # ContentCrafter: Your AI Writing Companion
 
-ContentCrafter is an AI-driven application designed to help you generate high-quality, SEO-friendly blog posts, headline ideas, and LinkedIn posts with ease. By leveraging the power of Google's Gemini model, ContentCrafter assists writers, marketers, and content creators in crafting engaging and well-structured content.
+ContentCrafter is an AI-driven application designed to help you generate high-quality, SEO-friendly blog posts, headline ideas, and LinkedIn posts with ease. With Google's Gemini, ContentCrafter can assist writers, marketers, and content creators in crafting engaging and well-structured content.
 
 ## Features
 
