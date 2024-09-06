@@ -50,7 +50,7 @@ with st.sidebar:
 
 if submit_button:
     # Define the prompt
-    prompt = f"Generate 3 items for me. 1. A comprehensive, well structured, detailed and non AI generated looking blog post based on the given Title: \"{blog_title}\", Keywords: \"{keywords}\". The blog should be approximately {num_words} words in length, suitable for online reading & SEO friendly. Ensure that the content maintains a consistent tone, is original, interesting, uses pop culture references time to time, and aims at providing value while holding reader interest throughout the piece. 2. 5 SEO friendly Headline variations for the blog article And 3. 2 LinkedIn posts with 3 hashtags each to share this blog when published on LinkedIn."
+    prompt = f"You are a world-class content writer with expertise in crafting well-structured, engaging, and data-driven content. Your writing is varied, captivating, and includes verified data and citations where relevant. Please generate the following: 1.	A comprehensive, well-structured, detailed, and natural-sounding blog post based on the provided Title: “{blog_title}” and Keywords: “{keywords}”. The post should be approximately {num_words} words, optimized for online reading and SEO best practices. Ensure the content is original, maintains a consistent tone, and incorporates pop culture references where appropriate. The goal is to provide value, keep the reader engaged, and offer a memorable reading experience. 2.	5 SEO-optimized headline variations for the blog article, each designed to capture attention and improve click-through rates. 3. 2 LinkedIn posts to promote the blog when published, with compelling copy and 3 relevant hashtags for each post."
 
     # Start chat session and generate content
     chat_session = model.start_chat(
